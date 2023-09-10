@@ -66,7 +66,8 @@ public class App {
               System.out.println("Su saldo nuevo es de: "+SaldoNuevo +" Dolares");
             break;
            }
-
+           default:
+             System.out.println("No se ha digitado ninguna de las opciones disponibles");
         }
      
      x.close();   
