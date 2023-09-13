@@ -31,7 +31,7 @@ public class App {
                   System.out.println("Los minutos hablados fueron: "+minutos+ " Minutos");
                   System.out.println("El costo a pagar de su servicio "+Servicios+ " (Servicio Regular) es de: " +ServicioRegular+ " Dolares");
                 }else if(minutos>50){
-
+	
                   adicional=minutos-50;
                   Cargo=adicional*0.20;
                   total=ServicioRegular+Cargo;
