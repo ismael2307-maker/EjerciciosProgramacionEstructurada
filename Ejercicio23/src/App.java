@@ -479,14 +479,12 @@ public class App {
                      producto2=z1*x2-x1*z2;
                      producto3=x1*y2-y1*x2;
                      System.out.println("El producto cruz del vector ("+x1+","+y1+","+z1+") y el vector ("+x2+","+y2+","+z2+") es: ("+producto1+","+producto2+","+producto3+")");
-                     
-
                    break;
                   }
                }
                break;    
               }
-        }
+         }
             System.out.println("¿Quiere seguir usando el programa?");
             System.out.println("Aprieta 1 para Seguir");
             System.out.println("Aprieta 2 para Salir");

@@ -7,7 +7,7 @@ public class App {
         int intentos=0;
         int olaa=1;
 
-        while(olaa==1){
+        while(olaa==1){ 
 
         while(numero!=aleatorio && intentos<3){ 
             intentos++;
